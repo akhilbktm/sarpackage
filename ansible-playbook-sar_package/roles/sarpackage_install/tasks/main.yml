@@ -1,9 +1,0 @@
----
-- name: Include OS-specific variables
-  include: "{{ ansible_os_family }}.yml"
-
-# OS-specific installation
-#- include: Debian.yml
-#  when: ansible_os_family == "Debian"
-#- include: RedHat.yml
-#  when: ansible_os_family == "RedHat"
