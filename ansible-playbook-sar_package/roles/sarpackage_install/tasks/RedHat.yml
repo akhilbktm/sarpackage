@@ -1,5 +1,0 @@
----
-- name: Install Sysstat
-  yum: name=sysstat state=latest
-- name: start service
-  service: name=sysstat state=started
