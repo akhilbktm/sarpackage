@@ -1,5 +1,0 @@
----
-- name: Enable epel repo
-  replace: dest=/etc/yum.repos.d/epel.repo regexp='^enabled=(.)' replace='enabled=1' 
-- name: Install atop
-  yum: name=atop state=latest 

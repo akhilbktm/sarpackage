@@ -1,3 +1,0 @@
-[TestServers]
-#<Host IP> ansible_ssh_private_key_file=/ssh_private_key_fileloation/file.pem ansible_user=ssh_username
-35.163.153.104 ansible_ssh_private_key_file=/root/akhil_b_key.pem ansible_user=ubuntu

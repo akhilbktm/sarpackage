@@ -1,6 +1,0 @@
----
-- name: Install atop ubuntu
-  apt:
-    name: atop
-    state: latest
-

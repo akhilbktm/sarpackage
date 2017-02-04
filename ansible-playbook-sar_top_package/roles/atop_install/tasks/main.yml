@@ -1,4 +1,0 @@
----
-- name: Include OS-specific Installation
-  include: "{{ ansible_distribution }}.yml"
-

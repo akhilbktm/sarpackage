@@ -1,8 +1,0 @@
----
-- hosts: TestServers
-  remote_user: root
-  become: yes
-  become_user: root
-  roles:
-    - sarpackage_install
-
