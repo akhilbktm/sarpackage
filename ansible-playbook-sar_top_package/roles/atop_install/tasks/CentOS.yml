@@ -1,0 +1,9 @@
+---
+- name: Enable epel repo
+  shell: yum install epel-release -y
+- name: Install atop Centos
+  yum: 
+   name: atop 
+   state: latest
+#- name: Enable using chkconfig
+#  command: chkconfig --add atop
